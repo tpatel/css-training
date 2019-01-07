@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Agricool</title>
+  <style type="text/css">
+    html, body, .container {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+    }
+    .row {
+      padding: 1em 3em;
+    }
+    .header {
+      display: grid;
+      grid-template-columns: auto auto;
+      line-height: 3em;
+    }
+    .logo {
+      font-size: 2em;
+    }
+    .nav {
+      display: grid;
+      grid-template-columns: repeat(5, 3fr) repeat(2, 1fr);
+    }
+    .hero {
+      padding-left: 33%;
+      max-width: 20em;
+      font-size: 2em;
+      padding-bottom: 3em;
+    }
+    .button {
+      margin: 0;
+      padding: 10px;
+      border-radius: 5px;
+      border: none;
+      text-transform: uppercase;
+      color: white;
+      background-color: #AAA;
+    }
+    .split {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header row">
+      <div class="logo">Agricool</div>
+      <div class="nav">
+        <span>Histoire</span>
+        <span>Fraises</span>
+        <span>Équipe</span>
+        <span>Média</span>
+        <span>FAQ</span>
+        <span>𝐟</span>
+        <span>🐦</span>
+      </div>
+    </div>
+    <div>
+      <div class="hero row">
+        <h1>Le 1er calendrier de l’agriculture urbaine à Paris</h1>
+        <button class="button">Je commande</button>
+      </div>
+      <div class="row split">
+        <div>
+          <h2>Une ferme urbaine
+à Paris</h2>
+          <p>Elles sont là. Des fraises excellentes cultivées au cœur de Paris : du goût, aucun pesticide, aucun OGM. Elles sont cultivées avec 90% moins d’eau et de nutriments que dans une culture en pleine terre, et uniquement avec des énergies renouvelables.</p>
+          <button class="button">Je commande</button>
+        </div>
+      </div>
+    </div>
+    <div class="footer row">
+© 2017 Agricool - Made with love in Paris
+    </div>
+  </div>
+</body>
+</html>
