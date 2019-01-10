@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Redash</title>
+  <style type="text/css">
+    html, body {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+    }
+    .header {
+      position: static;
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      box-shadow: 0 2px 5px #EEE;
+    }
+    .nav {
+      display: flex;
+    }
+    .menu {
+      line-height: 2em;
+      padding: 0 1em;
+      margin: 1em;
+      text-decoration: none;
+      color: black;
+      transition: all 0.3s ease;
+    }
+    .menu:hover {
+      background-color: #EEE;
+    }
+    .button {
+      line-height: 2em;
+      background-color: #2196f3;
+      color: white;
+      border-radius: 4px;
+      padding: 0 1em;
+      margin: 1em;
+      text-decoration: none;
+    }
+    .split-1 {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+    }
+    .split-2 {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+    }
+    .margin {
+      padding: 2em;
+    }
+    .align-right {
+      text-align: right;
+    }
+    .footer {
+      background-color: #f8fafa;
+      padding: 1em 2em;
+    }
+    .footer-links {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="left nav">
+      <a href="#" class="menu">🔴</a>
+      <a href="#" class="menu">Product</a>
+      <a href="#" class="menu">Customers</a>
+      <a href="#" class="menu">Case Studies</a>
+      <a href="#" class="menu">Community</a>
+      <a href="#" class="menu">Pricing</a>
+      <a href="#" class="menu">Help ▾</a>
+    </div>
+    <div></div>
+    <div class="right nav">
+      <a href="#" class="menu">Login</a>
+      <a href="#" class="menu button">Get started</a>
+    </div>
+  </div>
+  <div class="split-1">
+    <div class="margin">
+      <h1>Redash helps you make sense of your data</h1>
+      <p>Connect and query your data sources, build dashboards to visualize data and share them with your company.</p>
+      <a href="#" class="button">Get started</a>
+    </div>
+    <div class="margin"></div>
+  </div>
+  <div class="split-2">
+    <div class="margin">
+    </div>
+    <div class="margin">
+      <p>“Redash is as essential as email to my company. We love data but accessing the data is a pain without Redash. Any company I go to, I get them hooked on Redash. It’s an easy sell :)”</p>
+    </div>
+  </div>
+  <div class="split-1">
+    <div class="margin">
+      <h2>Write queries effectively</h2>
+      <p>Enjoy the power and comfort of a SQL client with the collaborative advantages of a cloud based service.</p>
+      <ul>
+        <li>Powerful online SQL editor</li>
+        <li>Browse schema and click-to-insert</li>
+        <li>Create snippets and reuse them</li>
+      </ul>
+    </div>
+    <div class="margin"></div>
+  </div>
+  <div class="footer">
+    <div class="align-right">Terms ⚬ Privacy Policy</div>
+    <div class="footer-links">
+      <div class="footer-link-list">
+        <a href="#" class="footer-link">Test</a>
+      </div>
+      <div class="footer-link-list">
+        <a href="#" class="footer-link">Test</a>
+      </div>
+      <div class="footer-link-list">
+        <a href="#" class="footer-link">Test</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
