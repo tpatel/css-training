@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Trello</title>
+  <style type="text/css">
+    html, body {margin: 0; padding: 0; font-family: sans-serif;}
+    .row {
+      max-width: 1200px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+    .header {
+      background-color: #0079bf;
+      position: sticky;
+      top: 0;
+      padding: 1.2em 0;
+    }
+    .nav {
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+    }
+    .spread-nav {
+      display: flex;
+    }
+    .logo {
+      font-size: 2em;
+      color: white;
+    }
+    .menu {
+      line-height: 2em;
+      padding: 0 1.1em;
+      color: white;
+      font-size: 1.1em;
+    }
+    .button {
+      display: inline-block;
+      background-color: white;
+      line-height: 2em;
+      padding: 0 1.1em;
+      border-radius: 5px;
+      color: #0079bf;
+      box-shadow: inset 0 -2px 0 #AAA;
+    }
+    .hero {
+      background-color: #0079bf;
+      color: white;
+    }
+    .split {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+    }
+    .lighten {
+      color: rgba(255,255,255,0.9);
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="row nav">
+      <div class="spread-nav logo">◻️ Trello</div>
+      <div></div>
+      <div class="spread-nav">
+        <a class="menu">Log in</a>
+        <a class="menu button">Sign Up</a>
+      </div>
+    </div>
+    
+  </div>
+  <div class="hero">
+    <div class="row split">
+      <div>
+        <h1>Trello lets you work more collaboratively and get more done.</h1>
+        <p class="lighten">Trello’s boards, lists, and cards enable you to organize and prioritize your projects in a fun, flexible and rewarding way.</p>
+      </div>
+      <div></div>
+    </div>
+  </div>
+</body>
+</html>
